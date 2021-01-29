@@ -35,3 +35,8 @@ sorted = ''
 sorted = sorted.join(sort)
 print(sorted)
 
+count substrings.
+
+def count_substring(string, sub_string):
+    s = ([s for s in range(len(string)) if string.find(sub_string, s) == s])
+    t = len(s)    
