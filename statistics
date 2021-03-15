@@ -2,3 +2,18 @@
 
 import statistics
 
+c = [1]
+
+print(statistics.mean(c))
+print(statistics.median(c))
+print(statistics.mode(c))
+
+Weighted Mean
+
+import numpy as np
+
+x = [1,2]
+w = [2,3]
+
+print(np.average(x ,axis = None,weights= w))
+print(round(sum([X[i] * W[i] for i in range(len(X))]) / sum(W),1))
